@@ -1,7 +1,10 @@
 # kubectx-kubens
 git clone https://github.com/mehmetafsar510/kubectx-kubens.git
+
 cd kubectx-kubens
+
 chmod 755 kubectx kubens
+
 mv kubectx kubens /usr/local/bin
 
 ----------------------------------
@@ -10,7 +13,11 @@ Kubernetes commands can be quite lengthy, so setting up some aliases for running
 We have listed aliases for some frequently used commands below. Run these before executing kubectl commands to save yourself some time.
 
 git clone https://github.com/mehmetafsar510/kubectx-kubens.git
+
 cd kubectx-kubens
+
 cat kubectl-reduction.txt >> /root/.bashrc
+
 bash
+
 kgp
